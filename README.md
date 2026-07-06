@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/welcome.png" alt="PracticeHub Welcome Screen" width="700"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/giri%C5%9F%20ekran%C4%B1.png"PracticeHub Welcome Screen" width="700"/>
 </p>
 
 <h1 align="center">Practice<em>Hub</em></h1>
@@ -22,34 +22,44 @@
 ---
 
 > [!WARNING]
-> **This is an early beta release.** PracticeHub is actively under development. Features may change, break, or be removed without prior notice. Your feedback and contributions are welcome as we continue to refine the experience.
+> **This is an early beta release.** PracticeHub is actively under development. Features may change, break, or be removed without prior notice. Your feedback and bug reports are welcome as we continue to refine the experience.
 
 ---
 
 ## 📖 About
 
-**PracticeHub** is a cross-platform desktop application that provides an all-in-one study environment for language learners. Import books and texts, read with built-in tools, build your personal dictionary, practice vocabulary through interactive quizzes, and stay motivated with a gamified learning experience — all without leaving the app.
+**PracticeHub** is a desktop application that provides an all-in-one study environment for language learners. Import books and texts, read with built-in tools, build your personal dictionary, practice vocabulary through interactive quizzes, and stay motivated with a gamified learning experience — all without leaving the app.
 
 Whether you're studying English, preparing for exams, or simply expanding your vocabulary through reading, PracticeHub keeps everything you need in one elegant, distraction-free workspace.
+
+---
+
+## 📥 Download
+
+| Platform | Download |
+|----------|----------|
+| **Windows** | [⬇️ Download PracticeHub Setup (.exe)](https://github.com/carus10/PracticeHub/releases) |
+
+> **Note:** Currently only Windows is supported. macOS and Linux support is planned for future releases.
 
 ---
 
 ## ✨ Features
 
 ### 📚 Smart Library
-Manage your reading materials with an intuitive library interface. Import content via text paste or AI-powered PDF upload. Organize by mode: **Normal**, **Language Learning**, or **Study Session**.
+Manage your reading materials with an intuitive library interface. Import content via text paste or AI-powered PDF upload. Organize by mode: **Normal**, **Language Learning**, or **Study Session**. Track your overall progress, total materials, and quickly resume where you left off.
 
 <p align="center">
-  <img src="screenshots/homepage.png" alt="Library Dashboard" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/Anasayfa.png"Library Dashboard" width="800"/>
 </p>
 
 ---
 
 ### 📄 Immersive Reader
-A clean, focused reading experience with page-by-page navigation, progress tracking, and text highlighting in multiple colors. Supports **Language Learning Mode** with instant dictionary lookups and note-taking.
+A clean, focused reading experience with page-by-page navigation, progress tracking, and text highlighting in multiple colors. Supports **Language Learning Mode** with instant dictionary lookups and note-taking directly from the text.
 
 <p align="center">
-  <img src="screenshots/reader.png" alt="Reader View" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/pratik%20erkan%C4%B1.png"Reader View" width="800"/>
 </p>
 
 ---
@@ -58,20 +68,20 @@ A clean, focused reading experience with page-by-page navigation, progress track
 Import your study materials easily. Paste text directly or upload PDF files with AI-assisted text extraction. Choose your study mode, add cover images, and configure repetition settings for memorization practice.
 
 <p align="center">
-  <img src="screenshots/add_content.png" alt="Add Content Modal" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/yeni%20i%C3%A7erik%20ekle.png"Add Content Modal" width="800"/>
 </p>
 
 ---
 
 ### 📗 Personal Dictionary
-Build your own vocabulary database while reading. Each word entry includes definitions, pronunciation (with TTS audio), example sentences, and links to YouGlish for real-world pronunciation examples. Words are automatically organized alphabetically and grouped by source book.
+Build your own vocabulary database while reading. Each word entry includes definitions, pronunciation (with text-to-speech audio), example sentences, and links to [YouGlish](https://youglish.com/) for real-world pronunciation examples. Words are automatically organized alphabetically and grouped by source book.
 
 <p align="center">
-  <img src="screenshots/dictionary.png" alt="Dictionary Overview" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/s%C3%B6zl%C3%BCk.png"Dictionary Overview" width="800"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/dictionary_detail.png" alt="Dictionary Word Detail" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/s%C3%B6zl%C3%BCk2.png" alt="Dictionary Word Detail" width="800"/>
 </p>
 
 ---
@@ -87,7 +97,7 @@ Test your knowledge with four interactive practice modes:
 | **Sound → Word** | Listen to pronunciation and type the correct word |
 
 <p align="center">
-  <img src="screenshots/practice_mode.png" alt="Practice Mode Selection" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/pratik%20yap.png"Practice Mode Selection" width="800"/>
 </p>
 
 ---
@@ -96,91 +106,22 @@ Test your knowledge with four interactive practice modes:
 Stay motivated with the **Jungle** mini-game. Earn drops and seeds through study activities, then use them to build your own virtual forest. Plant trees, create ponds, and lay paths — your jungle grows as your knowledge does.
 
 <p align="center">
-  <img src="screenshots/jungle.png" alt="Jungle Game" width="800"/>
+  <img src="https://github.com/carus10/PracticeHub/blob/main/jungle%20game.png"Jungle Game" width="800"/>
 </p>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Built With
 
-| Layer | Technology |
-|-------|-----------|
-| **Framework** | [Electron](https://www.electronjs.org/) 33.x |
-| **Frontend** | [React](https://react.dev/) 19 + [TypeScript](https://www.typescriptlang.org/) 5.8 |
-| **Build Tool** | [Vite](https://vitejs.dev/) 6 |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) (CDN) + Custom CSS Variables |
-| **Database** | [sql.js](https://sql.js.org/) (SQLite in browser) |
-| **PDF Processing** | [pdf.js](https://mozilla.github.io/pdf.js/) |
-| **Typography** | [Lora](https://fonts.google.com/specimen/Lora) + [Inter](https://fonts.google.com/specimen/Inter) |
-| **Packaging** | [electron-builder](https://www.electron.build/) (NSIS installer) |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or later)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/practicehub.git
-cd practicehub
-
-# Install dependencies
-npm install
-
-# Start in development mode
-npm run dev
-```
-
-### Build for Production
-
-```bash
-# Build the app
-npm run build
-
-# Create distributable installer (Windows)
-npm run dist
-```
-
-The installer will be generated in the `release/` directory.
-
----
-
-## 📂 Project Structure
-
-```
-practicehub/
-├── electron/              # Electron main process
-│   ├── main.ts            # App entry point & window management
-│   ├── preload.ts         # Secure bridge between main & renderer
-│   ├── database.ts        # SQLite database operations
-│   ├── ipcHandlers.ts     # IPC communication handlers
-│   └── audioCache.ts      # TTS audio caching system
-├── src/                   # React renderer process
-│   ├── App.tsx            # Root application component
-│   ├── types.ts           # TypeScript type definitions
-│   ├── components/
-│   │   ├── Library.tsx        # Main library dashboard
-│   │   ├── Reader.tsx         # Immersive text reader
-│   │   ├── Dictionary.tsx     # Personal dictionary
-│   │   ├── PracticeMode.tsx   # Vocabulary practice quizzes
-│   │   ├── StudyNotes.tsx     # Study notes manager
-│   │   ├── Jungle.tsx         # Gamified motivation system
-│   │   ├── ShadowingLibrary.tsx # Shadowing technique library
-│   │   ├── WelcomeScreen.tsx  # Landing screen
-│   │   └── YouGlishWidget.tsx # YouGlish pronunciation widget
-│   ├── services/          # Business logic services
-│   └── utils/             # Utility functions
-├── public/                # Static assets
-├── index.html             # HTML entry point
-├── vite.config.ts         # Vite configuration
-└── package.json           # Project metadata & scripts
-```
+| Technology | Purpose |
+|-----------|---------|
+| [Electron](https://www.electronjs.org/) | Desktop application framework |
+| [React](https://react.dev/) 19 | User interface |
+| [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
+| [Vite](https://vitejs.dev/) | Build tooling |
+| [Tailwind CSS](https://tailwindcss.com/) | Styling |
+| [SQLite](https://www.sqlite.org/) (sql.js) | Local database |
+| [pdf.js](https://mozilla.github.io/pdf.js/) | PDF text extraction |
 
 ---
 
@@ -209,15 +150,13 @@ PracticeHub follows a **minimalist, paper-inspired** design language:
 
 ---
 
-## 🤝 Contributing
+## 🐛 Bug Reports & Feedback
 
-Contributions are welcome! Since this project is in early beta, please open an issue first to discuss any changes you'd like to make.
+Since this project is in early beta, your feedback is incredibly valuable! If you encounter any bugs or have feature suggestions:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Open an [Issue](https://github.com/carus10/PracticeHub/issues) on this repository
+2. Include steps to reproduce the bug (if applicable)
+3. Mention your Windows version
 
 ---
 
@@ -231,3 +170,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
   <strong>Practice<em>Hub</em></strong> — Focus. Learn. Grow.<br/>
   <sub>Made with ❤️ by the PracticeHub Team</sub>
 </p>
+
